@@ -1,12 +1,14 @@
 import './App.css';
-import Appbar from './components/Appbar';
-import Student from './components/Student';
+import Appbar from './layout/Appbar';
+import Student from './students/Student';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
      <Appbar/>
-     <Student/>
+     <Home/>
     </div>
   );
 }
